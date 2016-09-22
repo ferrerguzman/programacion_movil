@@ -10,7 +10,7 @@
 	$resultado=$conexion->query($sql);
 	if($resultado)
 	{
-		header('Location: 20-09-2016.php');
+		header('Location: listar.php');
 	}
 	else
 	{
