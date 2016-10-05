@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Probando jQuery Mobile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<!-- PORTADA -->
+	<div data-role="page" id="portada">
+
+		<div data-role="header"><h1>Botones</h1></div>
+		<div data-role="content">
+		<a href="#" id ="boton" data-role="button" >Este es my buttton</a>
+		<input type="button" data-role="button" value="Boton input"/>
+		<input type="submit" data-role="button" value="Boton input con type submit"/>
+		<a href="#" data-role="button" data-inline="true" >Tine el mismo ancho del texto</a>
+		<a href="#" data-role="button" data-inline="true" data-theme="e" >Este boton es de otro color</a>
+		<input type="submit" data-role="button" value="submit con otro color" data-theme="b"/>
+		</div>
+
+	<div data-role="header">
+	<h1>Titular de página portada</h1>
+	</div>
+	<div data-role="content">
+	<p>Fabrico guitarras de todos los colores</p>
+	<p>Puedes ver <a href="#galeria">mis guitarras</a></p>
+	<p>Puedes <a href="#comprar" data-rel="dialog">comprar una guitarra</a></p>
+	</div>
+	<div data-role="footer">
+	Pie de página
+	</div>
+	</div>
+	<!-- /PORTADA -->
+	<!-- GALERIA -->
+	<div data-role="page" id="galeria" data-title="Galería de guitarras">
+	<div data-role="header">
+	<h1>Galería de fotos de mis guitarras</h1>
+	</div>
+	<div data-role="content">
+	<p>Puedes ver todas mis guitarras</p>
+	<p><a href="#portada">volver</a></p>
+	</div>
+	<div data-role="footer">
+	Pie de página
+	</div>
+	</div>
+	<!-- /GALERIA -->
+	<!-- COMPRAR -->
+	<div data-role="page" id="comprar" data-title="Comprar guitarras">
+	<div data-role="header">
+	<h1>Comprar guitarras</h1>
+	</div>
+	<div data-role="content">
+	<p>Servicio temporalmente indisponible</p>
+	<p><a href="#portada">volver</a></p>
+	</div>
+	<div data-role="footer">
+	Pie de página
+	</div>
+	</div>
+	<!-- /COMPRAR -->
+</body>
+</html>

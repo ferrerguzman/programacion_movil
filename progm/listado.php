@@ -13,26 +13,17 @@
 	<div data-role="page" data-fullsreen="true">
 	<div data-role="header" data-position="fixed">
 	<h1>programacion Movil</h1>
-<div data-role="navbar">
-	<ul>
-		<li><a href="javascript:alert('Inicio');">Inicio </a> </li>
-		<li><a href="javascript:alert('Listado');">Listado </a></li>
-		<li><a href="javascript:alert('Nuevo')">Nuevo </a></li>
-	</ul>
-</div>
 
+	<a href="listado.php" data-role="button" data-icon="home" 
+	data-iconpos="notext" data-theme="b" data-iconpos="left" 
+	data-inline="true">Inicio</a>
 </div>
 <div data-role="content">
     <h1> Bienvenidos</h1>
-	    <ul data-filter="true">
-		    <div data-role="listview">
-		    	<!--<li data-role="list-divider">Grupo 1</li>-->
-		    	<li data-role="list-divider">Grupo 1</li>
-		    	<li>Samsung</li>
-		    	<li>LG</li>
-		    	<li><a href="javascript:alert('Sony');">Sony</a><a href="">ju</a></li>
-		    	<li><a href="javascript:alert('Huawei');">Huawei</a></li>
-		    </div>
+	    <ul data-role="listview" data-filter="true">
+	    <li data-role="list-divider">Grupo Personas</li>
+		    <li><a href="nuevo.php">Nueva Persona</a></li>
+		    <li><a href="listar.php">Lista de Personas</a></li>
 	    </ul>
 
     </div>
@@ -41,10 +32,5 @@
     </div>
     </div>
     </div>
-	<!--un archivo html puede contener mas de una pagina(page)-->
-	<!--una pagina(page) puede definirse en un archivo fisico separado-->
-	<!--varias paginas en un archivo fisico unico no generan resquest-response adicionales-->
-	<!-- paginas en archivos fisicos separados generan grupos request-response adicionales-->
-	<!-- los archivos de recursos/librerias(css,js)pueden ser locales al sitio o ser usados desde un CDN-->
 </body>
 </html>

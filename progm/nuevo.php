@@ -13,6 +13,7 @@
 	<div data-role="page">
 		<div data-role="header" data-position="fixed">
 			<h1>Programacion Movil</h1>
+			<a href="listado.php" data-role="button" data-icon="home" data-iconpos="notext" data-theme="b" data-iconpos="left" data-inline="true">Inicio</a>
 		</div>
 		<div data-role="content">
 			<form method="post" action="nuevo.recibe.php" name="form-nuevo">

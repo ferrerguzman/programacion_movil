@@ -13,6 +13,7 @@
 		<div data-role="page" data-fullscreen="true">
 			<div data-role="header">
 				<h1>Personas</h1>
+				<a href="listado.php" data-role="button" data-icon="home" data-iconpos="notext" data-theme="b" data-iconpos="left" data-inline="true">Inicio</a>
 			</div>
 			<div data-role="content">
 				<table data-role="table" id="table-column-toggle" class="ui-responsive table-stroke">

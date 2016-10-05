@@ -13,14 +13,15 @@
 		<div data-role="page" data-fullscreen="true">
 			<div data-role="header">
 				<h1>Personas</h1>
+				<a href="listado.php" data-role="button" data-icon="home" data-iconpos="notext" data-theme="b" data-iconpos="left" data-inline="true">Inicio</a>
 			</div>
 			<div data-role="content">
 				<?php include("inc/conexion.php");?>
 				<?php $sql="SELECT * FROM personas";
 					  $resultado=$conexion->query($sql);?>
-				<ul data-role="listview"><a href="javascript:alert('Sony');">
+				<ul data-role="listview"><a href="javascript:alert('Hola!!');">
 				<?php while($fila=$resultado->fetch_assoc()){
-					echo "<li>".$fila['nombres']."</li>";
+					echo "<li>".$fila['nombres']." ".$fila['paterno']." ".$fila['paterno']."</li>";
 				}?></a>
 				</ul>
 			</div>
